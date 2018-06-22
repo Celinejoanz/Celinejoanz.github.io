@@ -1,23 +1,27 @@
 body{	
 	background: url("../img/background.jfif") no-repeat fixed center;
 	background-size: 100% 100%; /* h x w */
-	margin-bottom: 10px;
+
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
+	font-size: 18px;
 }
 
 img {
 	border-radius: 100px;
 }
 background-image{
-opacity: 10;
+opacity: 0.8;
+size: 100% 100%
 }
 
 .stuff{
 	height: 400px;
 }
-.nav-tabs > li {
-    /* width = (100 / number of tabs). This example assumes 3 tabs. */
-    width:25%;
+.contain{
+	background-color:white;
+	opacity: 0.5;
+	padding:10px 10px 10px 10px;
+	margin-bottom: 100px;
 }
